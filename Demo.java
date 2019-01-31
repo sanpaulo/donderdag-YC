@@ -21,9 +21,13 @@ public class Demo {
 //Beschrijft een Auto class
 class Auto{
 	String merk;
+	String voornaam;
 	int maxSnelheid;
 	void Toeteren() {
 		System.out.println("Toettoet! Ik ben een " + merk + " en ik kan maximaal "+maxSnelheid + " KM/u.");
+	}
+	void naamVeranderen(String nieuweNaam) {
+		voornaam = nieuweNaam;
 	}
 }
 
